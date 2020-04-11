@@ -1,6 +1,35 @@
-#gn-menu-active{
-	color: black;
+/* opmaak kerk in navigatiebalk */
+
+.kerk{
+    float: right;
+    padding-right: 28%;
+    margin-top: 10px;
+    height: 90px;
+    width: auto;
 }
+
+/* opmaak VDLP tekst in navigatiebalk */
+
+.header-title{
+	float: right;
+	padding-right: 5%;
+	font-weight: bold;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+/* textkleur actieve pagina */
+
+#gn-menu-active{
+	color: lightsteelblue;
+}
+
+/* textkleur actieve pagina bij hover */
+
+#gn-menu-active:hover{
+	color: white;
+}
+
 
 /* navigatiebalk opmaak */
 
@@ -13,7 +42,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 60px;
+	height: 100px;
 }
 
 /* dropdown menu opmaak */
@@ -24,7 +53,6 @@
 	background: #008cd4;
 	color: #008cd4;
 	list-style: none;
-
 }
 
 /* dropdown menu tekst opmaak */
@@ -32,7 +60,7 @@
 	text-align: left;
 	padding-left: 15px;
 	font-weight: bold;
-	font-family: 'Lato', Arial, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	display: block;
 	height: 100%;
 	color: white;
@@ -43,51 +71,48 @@
 
 /*muis hover opmaak*/
 
-.no-touch .gn-menu-main a:hover{
+.no-touch .gn-menu a:hover{
 	background: deepskyblue;
 	color: white;
 }
 
-/* dropdown knop meuk */
-
-.gn-menu-main > li {
-	display: block;
-	float: left;
-	height: 100%;
-	text-align: center;
-}
-
-/* padding dropdown knop */
+/* dropdown hamburger knop */
 
 .gn-menu-main > li > a {
-	padding: 0 30px;
-	width: 0px;
+	float: left;
+	height: 55px;
+	width: 75px;
+	padding: 0;
+	margin-top: 100px;
+	background: #008cd4;
+	border-radius: 0px 0px 125px 0px;
 }
 
 /* dropdown correct weergeven en slide in animatie*/
 
 .gn-menu-wrapper {
-		position: fixed;
-		top: 60px;
-		bottom: 0;
-		overflow: hidden;
-		-webkit-transform: translateX(-60px);
-		-moz-transform: translateX(-60px);
-		transform: translateX(-60px);
-		-webkit-transition: -webkit-transform 0.3s, width 0.3s;
-		-moz-transition: -moz-transform 0.3s, width 0.3s;
-		transition: transform 0.3s, width 0.3s;
+	position: fixed;
+	top: 100px;
+	bottom: 45%;
+	overflow: hidden;
+	-webkit-transform: translateX(-60px);
+	-moz-transform: translateX(-60px);
+	transform: translateX(-60px);
+	background: #008cd4;
+	border-radius: 0px 0px 70px 0px;
+	-webkit-transition: -webkit-transform 0.3s, width 0.3s;
+	-moz-transition: -moz-transform 0.3s, width 0.3s;
+	transition: transform 0.3s, width 0.3s;
+		
 }
 
 /* dropdown correct weergeven */
 
 .gn-scroller {
-		position: absolute;
-		overflow-y: scroll;
-		width: 370px;
-		height: 100%;
+	position: absolute;
+	width: 140px;
+	height: 100%;
 }
-
 
 /* hamburger knop weergeven */
 
@@ -98,12 +123,12 @@
 /* hamburger knop geen hover opmaak */
 
 .gn-icon-menu::before {
-		margin-left: -15px;
-		vertical-align: 0px;
-		width: 30px;
-		height: 3px;
+		margin-left: 10px;
+		vertical-align: 5px;
+		width: 40px;
+		height: 4px;
 		background: white;
-		box-shadow: 0 3px #008cd4, 0 -6px white, 0 -9px #008cd4, 0 -12px white;
+		box-shadow: 0 -1px #008cd4, 0 -11px white, 0 -14px #008cd4, 0 -22px white;
 		content: '';
 }
 
@@ -111,17 +136,13 @@
 
 .no-touch .gn-icon-menu:hover::before,
 .no-touch .gn-icon-menu.gn-selected:hover::before {
-		background: white;
-		box-shadow: 0 3px deepskyblue, 0 -6px white, 0 -9px deepskyblue, 0 -12px white;
+		background: lightsteelblue;
+		box-shadow: 0 -1px #008cd4, 0 -11px lightsteelblue, 0 -14px #008cd4, 0 -22px lightsteelblue;
 }
 
 /* opengaan van dropdown opmaak */
 
 .gn-menu-wrapper.gn-open-all{
 	transform: translateX(0px);
-	width: 160px
+	width: 140px
 }
-
-
-
-
