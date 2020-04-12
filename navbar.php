@@ -11,6 +11,7 @@ $pages["contact.php"] = "Contact";
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  <nav class="navbar fixed-top navbar-expand">
   <div class="container">
     <ul id="gn-menu" class="gn-menu-main">
     <img class="kerk" src="images/vdlpkerkje.png">
@@ -25,10 +26,10 @@ $pages["contact.php"] = "Contact";
             </ul>
           </div>
         </nav>
-        <h1 class="header-title">VAN DER LET & PARTNERS</h1>
       </li>
     </ul>
   </div>
+  </nav>
   <script src="js/modernizr.custom.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/gnmenu.js"></script>
