@@ -46,7 +46,7 @@ Ben jij zo’n ambitieuze ondernemer of vertegenwoordig je een organisatie die k
 </h3>
 
 
-    <div class="c" contenteditable="true">
+    <div class="c">
         <h1 class="ons">Onze kerk </h1> <img class="kerkje" src="images/dekerk.jpg" width="250" height="350">
         <h3 class="ons">Een nostalgische werkplek
             <br> Het is een bijzondere plek en dat geeft direct een leuke sfeer. Het pand aan de Herenwal is in 1775 gebouwd. Destijds voor de Nederlands Hervormde Gemeente in Heerenveen<br>
