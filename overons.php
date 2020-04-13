@@ -24,8 +24,10 @@ require_once "navbar.php";
     <br>
     <br>
     <br>
-    
     <div class="ab">
+    <div class="123">
+    <img class="map" src="maps2.png" width="550" height="1016">
+    </div>
         
     <h1>Ambitieuze ondernemers succesvol maken,
 dat is onze missie!<h1>
@@ -42,17 +44,20 @@ Bomen zonder bos<br>
 Ben jij zo’n ambitieuze ondernemer of vertegenwoordig je een organisatie die klaar is voor de volgende stap? Wil je even met ons bomen over jullie wensen? Nodig ons dan uit om te komen sparren.
 
 </h3>
-</div>
+
+
     <div class="c" contenteditable="true">
-        <h2 class="ons">Onze kerk </h2> <img class="kerkje" src="images/dekerk.jpg" width="250" height="350">
+        <h1 class="ons">Onze kerk </h1> <img class="kerkje" src="images/dekerk.jpg" width="250" height="350">
         <h3 class="ons">Een nostalgische werkplek
-            <br> Het is een bijzondere plek en dat geeft direct een leuke sfeer. Het pand aan de Herenwal is in 1775 gebouwd. Destijds voor de Nederlands Hervormde Gemeente in Heerenveen
-            <br> Met authentieke elementen
-            <br>Bij de restauratie hebben we authentieke elementen bewaard. Er zijn nog een aantal kerkbanken, natuurlijk is de preekstoel behouden en het historische Van Dam-orgel uit 1866.
+            <br> Het is een bijzondere plek en dat geeft direct een leuke sfeer. Het pand aan de Herenwal is in 1775 gebouwd. Destijds voor de Nederlands Hervormde Gemeente in Heerenveen<br>
+            <br> Met authentieke elementen 
+            <br>Bij de restauratie hebben we authentieke elementen bewaard. Er zijn nog een aantal kerkbanken, natuurlijk is de preekstoel behouden en het historische Van Dam-orgel uit 1866.<br>
             <br> Wil je in onze kerk kijken?
             <br> Neem dan contact met ons op. Wil je weten hoe je ons vindt? Gebruik zonodig de routeplanner na het bekijken van ons adres.
         </h3>
     </div>
+    </div>
+    
 </body>
 
 </html>
