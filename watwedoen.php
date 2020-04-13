@@ -32,7 +32,9 @@ require_once "navbar.php";
   Marketing 
     </h2>
     <h3 class="c">
-    Bij het ontwikkeling en laten groeien van een afzetmarkt staat de behoefte van potentiële afnemers centraal. Het identificeren van die behoeften is essentieel. Wij weten als geen ander hoe je dit als bedrijf aanpakt. Goede marketing is een proces, dat kost tijd en energie. Wij leiden dit voor jou in goede banen: 
+    Bij het ontwikkeling en laten groeien van een afzetmarkt staat de behoefte van potentiële afnemers centraal.
+     Het identificeren van die behoeften is essentieel. Wij weten als geen ander hoe je dit als bedrijf aanpakt.
+      Goede marketing is een proces, dat kost tijd en energie. Wij leiden dit voor jou in goede banen: 
 <ul>
 <li>Marketing strategie: samen bedenken wij jouw identiteit en doelstellingen. </li>
 <li>Marketing tactiek: samen bepalen wij met welke middelen jouw doel bereikt wordt, offline en online. </li>
@@ -43,7 +45,9 @@ require_once "navbar.php";
         Webdevelopment
     </h2>
     <h3 class="c">
-    In veel vormen van marketing is de digitale snelweg een belangrijk onderdeel. Online aanwezigheid is gelukkig voor de meeste bedrijven al de normaalste zaak van de wereld. In vorm en techniek zijn wij jouw expert. Natuurlijk houden we rekening met alle ontwikkelingen.
+    In veel vormen van marketing is de digitale snelweg een belangrijk onderdeel.
+     Online aanwezigheid is gelukkig voor de meeste bedrijven al de normaalste zaak van de wereld.
+      In vorm en techniek zijn wij jouw expert. Natuurlijk houden we rekening met alle ontwikkelingen.
 
 Binnen onze webdevelopmentafdeling zorgen de projectleiders samen met de engineers en vormgevers voor de ontwikkeling van: 
 <ul>
@@ -52,11 +56,22 @@ Binnen onze webdevelopmentafdeling zorgen de projectleiders samen met de enginee
 <li>Mobiele app’s</li>
 <li>Complexe webapplicaties zoals o.a. boekings- en reserveringssytemen, rekenmodules en managementsystemen</li>
 </ul>
-Wij doen dat alles in onze kerk. We sparren met jou, regelen het en maken het. Volgens afspraak en …op tijd!
+Wij doen dat alles in onze kerk. We sparren met jou, regelen het en maken het. Volgens afspraak en …op tijd!<br><br>
+Lees meer over wat we precies doen en bekijk bijbehorende cases voor:
+<ul class="pagina">
+<li><a href="marketing.php" style="color: #008cd4;">Marketing</a></li>
+<li><a href="ontwerp.php" style="color: #008cd4;">Ontwerp</a></li>
+<li><a href="webdev.php" style="color: #008cd4;">Webdevelopment<a></li>
+<li><a href="app.php" style="color: #008cd4;">Applicatie en App ontwikkeling</a></li>
+ 
+
+ 
+
     </h3>
     </div>
     <div class="b">
         <textarea class="doen" rows="20" cols="62.5" disabled>
+
         MARKETING
         
         Marketingstrategie
@@ -66,6 +81,7 @@ Wij doen dat alles in onze kerk. We sparren met jou, regelen het en maken het. V
         Social Media Marketing
         </textarea>
         <textarea class="doen" rows="20" cols="62.5" disabled>
+
         ONTWERP
 
         Concept
@@ -76,6 +92,7 @@ Wij doen dat alles in onze kerk. We sparren met jou, regelen het en maken het. V
         Boeken en magazines
         </textarea>
         <textarea class="doen" rows="20" cols="62.5" disabled>
+
         WEBDEVELOPMENT
 
         Responsive website 
@@ -85,6 +102,7 @@ Wij doen dat alles in onze kerk. We sparren met jou, regelen het en maken het. V
         WordPress of Maatwerk CMS    
         </textarea>
         <textarea class="doen" rows="20" cols="62.5" disabled>
+        
         APPLICATIE EN APP ONTWIKKELING
         
         Bouw webapplicatie
