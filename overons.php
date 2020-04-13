@@ -26,7 +26,7 @@ require_once "navbar.php";
     <br>
     <div class="ab">
     <div class="123">
-    <img class="map" src="maps2.png" width="550" height="1016">
+    <img class="map" src="binnen.jpg" width="550" height="1016">
     </div>
         
     <h1>Ambitieuze ondernemers succesvol maken, dat is onze missie!<h1>
