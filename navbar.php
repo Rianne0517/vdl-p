@@ -5,32 +5,34 @@ $pages["cases.php"] = "Cases";
 $pages["watwedoen.php"] = "Wat we doen";
 $pages["overons.php"] = "Over ons";
 $pages["contact.php"] = "Contact";
+$pages["contact.php"] = "Contact";
 $pages["vacatures.php"] = "Vacatures";
 ?>
 
 <!DOCTYPE html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/navbar.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <nav class="navbar fixed-top navbar-expand">
-  <div class="container">
-    <ul id="gn-menu" class="gn-menu-main">
-    <img class="kerk" src="images/vdlpkerkje.png">
-      <li class="gn-trigger">
-        <a class="gn-icon gn-icon-menu"></a>
-        <nav class="gn-menu-wrapper">
-          <div class="gn-scroller">
-            <ul class="gn-menu">
-              <?php foreach ($pages as $url => $title) : ?>
-                <li><a <?php if ($url === $activePage) : ?>id="gn-menu-active" <?php endif; ?> href="<?php echo $url; ?>"><?php echo $title; ?></a></li>
-              <?php endforeach; ?>
-            </ul>
-          </div>
-        </nav>
-      </li>
-    </ul>
-  </div>
+    <div class="container">
+      <ul id="gn-menu" class="gn-menu-main">
+        <img class="kerk" src="images/vdlpkerkje.png">
+        <li class="gn-trigger">
+          <a class="gn-icon gn-icon-menu"></a>
+          <nav class="gn-menu-wrapper">
+            <div class="gn-scroller">
+              <ul class="gn-menu">
+                <?php foreach ($pages as $url => $title) : ?>
+                  <li><a <?php if ($url === $activePage) : ?>id="gn-menu-active" <?php endif; ?> href="<?php echo $url; ?>"><?php echo $title; ?></a></li>
+                <?php endforeach; ?>
+              </ul>
+            </div>
+          </nav>
+        </li>
+      </ul>
+    </div>
   </nav>
   <script src="js/modernizr.custom.js"></script>
   <script src="js/classie.js"></script>

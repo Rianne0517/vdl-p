@@ -47,12 +47,13 @@
 
 /* dropdown menu opmaak */
 .gn-menu-main ul {
+	border-top: solid white 2px;
 	margin: 0;
 	width: 100%;
 	padding: 0;
 	background: #008cd4;
-	color: #008cd4;
 	list-style: none;
+	border-radius: 0px 0px 70px 0px;
 }
 
 /* dropdown menu tekst opmaak */
@@ -72,8 +73,10 @@
 /*muis hover opmaak*/
 
 .no-touch .gn-menu a:hover{
+
 	background: deepskyblue;
 	color: white;
+	text-decoration: none;
 }
 
 /* dropdown hamburger knop */
@@ -84,6 +87,7 @@
 	width: 75px;
 	padding: 0;
 	margin-top: 100px;
+	border-top: solid white 2px;
 	background: #008cd4;
 	border-radius: 0px 0px 125px 0px;
 }
@@ -93,11 +97,12 @@
 .gn-menu-wrapper {
 	position: fixed;
 	top: 100px;
-	bottom: 48%;
+	bottom: 0;
 	overflow: hidden;
 	-webkit-transform: translateX(-60px);
 	-moz-transform: translateX(-60px);
 	transform: translateX(-60px);
+	height: 420px;
 	background: #008cd4;
 	border-radius: 0px 0px 70px 0px;
 	-webkit-transition: -webkit-transform 0.3s, width 0.3s;
@@ -123,9 +128,9 @@
 /* hamburger knop geen hover opmaak */
 
 .gn-icon-menu::before {
-		margin-left: 10px;
-		vertical-align: 5px;
-		width: 40px;
+		margin-left: 9px;
+		vertical-align: 3px;
+		width: 37px;
 		height: 4px;
 		background: white;
 		box-shadow: 0 -1px #008cd4, 0 -11px white, 0 -14px #008cd4, 0 -22px white;
@@ -144,5 +149,5 @@
 
 .gn-menu-wrapper.gn-open-all{
 	transform: translateX(0px);
-	width: 140px
+	width: 140px;
 }
