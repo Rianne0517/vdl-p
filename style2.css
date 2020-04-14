@@ -25,6 +25,7 @@ h3{
 h1.ons{
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     }
 h3.ons{
     text-align: left;
@@ -53,6 +54,12 @@ div.b{
     background-color: #ffffff;
     text-align: center;
       
+}
+div.vacatures{
+    display: block; width: 92%;
+    text-align: left;
+    float: right;
+
 }
 textarea.doen{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

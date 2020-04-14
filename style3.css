@@ -1,0 +1,16 @@
+div.vacatures{
+    display: block; width: 92%;
+    text-align: left;
+    float: right;
+
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #008cd4;
+    color: #ffffff;
+}
+img.vac{
+    float: right;
+    display: block;
+    padding: 5px;
+}
