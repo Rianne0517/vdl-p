@@ -1,10 +1,8 @@
 <?php
 $pages = array();
 $pages["home.php"] = "Home";
-$pages["cases.php"] = "Cases";
 $pages["watwedoen.php"] = "Wat we doen";
 $pages["overons.php"] = "Over ons";
-$pages["contact.php"] = "Contact";
 $pages["contact.php"] = "Contact";
 $pages["vacatures.php"] = "Vacatures";
 ?>
